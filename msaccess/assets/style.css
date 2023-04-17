@@ -1,0 +1,146 @@
+/* Style untuk body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style untuk header level 2 */
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #4CAF50;
+}
+
+/* Style untuk header level 3 */
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Style untuk form */
+form {
+  margin: 20px auto;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Style untuk table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Style untuk cell pada table */
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Style untuk header pada table */
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Style untuk baris genap pada table */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style untuk input text */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style untuk input submit */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style untuk input submit saat di hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style untuk link */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+  margin-right: 10px;
+  text-align: center;
+}
+
+/* Style untuk link saat di hover */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style untuk container */
+.access {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Style untuk tombol tambah kontak */
+.btn {
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Style saat hover pada tombol tambah kontak */
+.btn-kontak:hover {
+  background-color: #45a049;
+}
+
+
+.btn-warning {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-warning:hover {
+  color: #fff;
+  background-color: #fcc;
+  border-color: #ffc107;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
